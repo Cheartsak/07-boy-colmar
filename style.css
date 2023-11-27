@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Header */
+nav {
+  height: 64px;
+  display: flex;
+  padding: 0 24px;
+  justify-content: space-between;
+  background-color: lightblue;
+}
+.nav-desktop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: lightcoral;
+}
+.nav-title {
+  display: flex;
+}
+.title {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+span {
+  color: gray;
+}
+.navbar {
+  display: flex;
+  gap: 16px;
+}
+.navlist {
+  list-style: none;
+}
+.nav-mobile {
+  display: none;
+  background-color: lightgoldenrodyellow;
+}
