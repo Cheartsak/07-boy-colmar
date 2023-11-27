@@ -8,6 +8,9 @@ h1 {
   color: darkgray;
   font-weight: 900;
 }
+li {
+  list-style: none;
+}
 img {
   width: 100%;
   object-fit: cover;
@@ -18,6 +21,7 @@ button {
   background-color: darkgray;
   color: white;
 }
+
 /* Header */
 nav {
   height: 64px;
@@ -121,4 +125,55 @@ span {
 }
 .course-item {
   background-color: white;
+  width: 30%;
+}
+.course-item-detail {
+  padding: 16px 0 24px 16px;
+}
+.course-uppercase {
+  text-transform: uppercase;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* thesis section */
+.thesis {
+  background-color: lightgreen;
+}
+.thesis-heading {
+  margin-top: 32px;
+  text-align: center;
+}
+.thesis-total {
+  display: flex;
+}
+.thesis-left {
+  width: 60%;
+  padding: 32px 24px;
+  background-color: lightblue;
+}
+.thesis-title {
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.thesis-right {
+  width: 40%;
+  padding: 32px 0;
+  background-color: lightcoral;
+}
+.thesis-item {
+  display: flex;
+  align-items: center;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background-color: lightgoldenrodyellow;
+}
+.footer-right {
+  display: flex;
+  gap: 10px;
 }
