@@ -3,10 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-h1{
-    font-size: 2.5rem;
-    color: darkgray;
-    font-weight: 900;
+h1 {
+  font-size: 2.5rem;
+  color: darkgray;
+  font-weight: 900;
 }
 img {
   width: 100%;
@@ -54,12 +54,52 @@ span {
   display: none;
   background-color: lightgoldenrodyellow;
 }
+
 /* hero section */
 .hero {
   display: flex;
   align-items: center;
+  background-color: lightpink;
 }
 .hero-left {
   width: 60%;
   padding: 32px 24px;
+}
+
+/* information section */
+.information {
+  display: flex;
+}
+.info-left {
+  width: 60%;
+  padding: 32px 24px;
+  background-color: lightskyblue;
+}
+.info-title {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+.info-right {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.info-item {
+  display: flex;
+  align-items: center;
+}
+.item-left {
+  width: 35%;
+  padding: 16px;
+  background-color: lightseagreen;
+}
+.first {
+  padding-top: 0px;
+}
+.text-detail {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: lightgoldenrodyellow;
+}
+.text-blue {
+  color: dodgerblue;
 }
